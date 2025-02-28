@@ -89,9 +89,9 @@ type User = {
 
 // Define a mock user for login
 const mockUser: User = {
-  name: "Alex Johnson",
-  email: "alex.johnson@example.com",
-  avatar: "AJ",
+  name: "Williams Folorunso",
+  email: "williamsfolorunso07@gmail.com",
+  avatar: "WF",
   skills: ["React", "JavaScript", "HTML5", "CSS/Tailwind", "TypeScript"]
 };
 
