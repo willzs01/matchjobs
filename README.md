@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📌 AI-Powered Job Match Dashboard
+🚀 Overview
+The AI-Powered Job Match Dashboard is a modern Next.js application that helps users find job recommendations based on their skills. It fetches job listings, calculates match scores, and provides an intuitive UI for job applications.
+
+🛠 Tech Stack
+Frontend: Next.js (React)
+Styling: Tailwind CSS
+State Management: Context API / Zustand
+Icons & UI Components: Lucide React, Radix UI
+API Handling: Fetch / Axios
+Bonus: TypeScript support
 
 ## Getting Started
+clone the repo:
+git clone https://github.com/your-username/job-match-dashboard.git
 
-First, run the development server:
+navigate to this directory:
+cd job-match-dashboard
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+install dependencies:
+npm install
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+✨ Features
+✅ Job Listings – Displays recommended jobs dynamically.
+✅ Match Score Calculation – Compares user skills vs. required skills.
+✅ Job Details Modal – Clicking a job shows detailed information.
+✅ Apply Now Button – Alerts users if they lack required skills.
+✅ Skill Management – Users can add/remove skills for better matches.
+✅ Dark Mode Toggle – Supports both light and dark themes.
+✅ Responsive UI – Works across mobile, tablet, and desktop.
 
-## Learn More
+📡 API & Data Handling
+Mock API Data: Job listings are retrieved from a static JSON structure (simulating an API).
+Dynamic Match Scores: The app calculates job fit based on user skills vs. job requirements.
+State Management: Uses React state hooks for job filtering, skill updates, and user actions.
+🚀 Deployment (Bonus)
+If deployed on Vercel, add the link here:
+🔗 Live Demo: https://your-vercel-app.vercel.app
 
-To learn more about Next.js, take a look at the following resources:
+📜 Submission Guidelines
+This project follows the Frontend Developer Interview Submission format:
+✅ GitHub Repository with a clear README.
+✅ Clean and modular code for easy review.
+✅ Deployed live demo (optional but recommended).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🏆 Evaluation Criteria
+🔹 Code Quality – Clean, modular, and reusable components.
+🔹 UI/UX Design – Well-structured layout with good responsiveness.
+🔹 API Integration – Fetching and displaying job data dynamically.
+🔹 State Management – Efficient handling of user interactions.
+🔹 Bonus: TypeScript support and extra enhancements.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📝 License
+This project is licensed under the MIT License.
 
-## Deploy on Vercel
+📌 Summary
+This README.md is structured for:
+✔ Clarity – Easy to follow setup instructions.
+✔ Professionalism – Matches industry standards.
+✔ Submission Requirements – Ensures compliance with interview guidelines.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This refined version will make your submission stand out to recruiters and interviewers! 🚀
